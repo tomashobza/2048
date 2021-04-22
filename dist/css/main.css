@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#content-cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#flexer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#flexer>div {
+    margin-bottom: 10px;
+}
+
+#top-container {
+    display: flex;
+    align-items: center;
+}
+
+#nadpis {
+    font-weight: bold;
+    font-size: 100px;
+    margin-right: 20px
+}
+
+#top-right-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+#score-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#score-cont>div {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#Nova-hra-btn {
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background: black;
+    border: 2px solid black;
+}
+
+#container>div {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#leaderboard-cont {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+#leaderboard {
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 15px;
+}
